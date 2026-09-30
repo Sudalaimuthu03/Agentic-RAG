@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>PDF RAG</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Source+Serif+4:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <span class="brand-mark">◆</span>
+        <span class="brand-name">PDF&nbsp;RAG</span>
+      </div>
+
+      <section class="card">
+        <h3>Index</h3>
+        <dl class="stat-list" id="stats">
+          <dt>PDFs</dt><dd id="stat-pdfs">–</dd>
+          <dt>Chunks</dt><dd id="stat-chunks">–</dd>
+          <dt>Size</dt><dd id="stat-size">–</dd>
+          <dt>Model</dt><dd id="stat-model">–</dd>
+        </dl>
+      </section>
+
+      <section class="card">
+        <h3>Upload PDF</h3>
+        <form id="upload-form">
+          <input type="file" id="file-input" accept="application/pdf" />
+          <button type="submit" class="btn-secondary">Upload &amp; Index</button>
+        </form>
+        <button id="reindex-btn" class="btn-secondary">Reindex All</button>
+        <p class="hint" id="upload-status"></p>
+      </section>
+
+      <section class="card">
+        <h3>Filter</h3>
+        <input type="text" id="filter-input" placeholder="source=manual.pdf" />
+        <div class="btn-row">
+          <button id="filter-apply" class="btn-secondary">Apply</button>
+          <button id="filter-clear" class="btn-secondary">Clear</button>
+        </div>
+        <p class="hint" id="filter-status"></p>
+      </section>
+
+      <section class="card">
+        <button id="clear-chat" class="btn-secondary">Clear Conversation</button>
+      </section>
+    </aside>
+
+    <main class="chat">
+      <div class="chat-scroll" id="chat-scroll">
+        <div class="empty-state" id="empty-state">
+          <p>Upload a PDF, then ask a question about it.</p>
+        </div>
+      </div>
+
+      <form id="chat-form" class="composer">
+        <textarea id="question-input" placeholder="Ask about your documents…" rows="1"></textarea>
+        <button type="submit" id="send-btn">Ask</button>
+      </form>
+    </main>
+  </div>
+
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

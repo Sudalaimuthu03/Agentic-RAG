@@ -1,0 +1,50 @@
+{
+  "files": {
+    "bdafff65c32c05b6f7ad0ff6cb10e3fa181179d9b569ab16af53b78b7ea9e605": {
+      "filename": "AquaFlow_AF200_Manual.pdf",
+      "num_pages": 7,
+      "num_chunks": 16,
+      "indexed_at": "2026-09-17T00:16:59.572210+00:00"
+    },
+    "c7c12c53c65f2647fdc6b61910425a7b768662e35a607f92b8ec229995d1939b": {
+      "filename": "AquaFlow_AF300_Manual.pdf",
+      "num_pages": 1,
+      "num_chunks": 5,
+      "indexed_at": "2026-09-17T00:16:59.663224+00:00"
+    },
+    "fb6dbbd42d332aa4677a3a4526d1a074fcbf6c2fcb640f0f9a413bc7446d713d": {
+      "filename": "candidate_resume.pdf",
+      "num_pages": 1,
+      "num_chunks": 6,
+      "indexed_at": "2026-09-17T00:16:59.704290+00:00"
+    },
+    "947f10fe09bdf066d2d41bfa50e75202892bf53804e0a3881653fba920bd5fdf": {
+      "filename": "hospital_intake_procedures.pdf",
+      "num_pages": 1,
+      "num_chunks": 7,
+      "indexed_at": "2026-09-17T00:16:59.736129+00:00"
+    },
+    "91391e4db09631af87d56a25533beffd6955c4d5ff5db7f33d802c65c2f14e80": {
+      "filename": "policy_doc.pdf",
+      "num_pages": 1,
+      "num_chunks": 7,
+      "indexed_at": "2026-09-17T00:16:59.784869+00:00"
+    },
+    "7960254ffe97dd50af1e92f712816ec259f4244f838c57d885ee25fd8ad5b01a": {
+      "filename": "Priya_Rajesh_AI_Engineer.pdf",
+      "num_pages": 1,
+      "num_chunks": 5,
+      "indexed_at": "2026-09-17T00:16:59.847298+00:00"
+    },
+    "6718a1d9d83986b30dfadba96f9356edec9a676e04ca184ba3e3801b1add69df": {
+      "filename": "sample_manual.pdf",
+      "num_pages": 4,
+      "num_chunks": 12,
+      "indexed_at": "2026-09-17T00:16:59.918328+00:00"
+    }
+  },
+  "stats": {
+    "num_pdfs": 7,
+    "num_chunks": 58
+  }
+}
