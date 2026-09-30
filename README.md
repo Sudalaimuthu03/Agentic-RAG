@@ -1,6 +1,5 @@
-# RAG Agent V4
+# RAG Agent V5.4
 
-Production-oriented offline PDF RAG rebuilt from the verified `RAG_V2_FRESH` baseline under the approved V4 engineering specification.
 
 ## Architecture
 
